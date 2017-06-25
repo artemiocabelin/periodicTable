@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+    /*------------------------------------*/
+
+#main_wrap {
+    background: #EEEEEE;
+    height: 497px;
+    width: 959px;
+    padding: 13px;
+}
+
+#a_top_stack {
+    height: 26px;
+    width: 959px;
+    margin: 0px;
+
+}
+
+.a_top_num {
+    display: inline-block;
+    width: 46px;
+    height: 26px;
+    vertical-align: top;
+    text-align: center;
+    padding: 0px 0 0 0;
+    font-size: 11px;
+    font-family: arial;
+    color: #FD1D1A;
+    /*background: green;*/
+}
+
+#a_focus1 {
+    margin-left: 12px;
+}
+
+.a_focus2 {
+    width: 45px;
+}
+
+.b_column, .c_rows {
+    height: 46px;
+    width: 46px;
+    border: 1px solid #949494;
+    margin-top: 2px;
+}
+
+#b_mid_stack {
+    /*background: blue;*/
+    height: 353px;
+    width: 959px;
+}
+
+.b_mid_group {
+    display: inline-block;
+    height: 350px;
+    width: 46px;
+    /*background: red;*/
+    vertical-align: bottom;
+    margin-right: -1px;
+    text-align: center;
+
+}
+
+.b_mid_num {
+    text-align: center;
+    font-size: 11px;
+    font-family: arial;
+    color: #FD1D1A;
+     /*background: indigo; */
+    height: 27px;
+    width: 45px;
+    padding: 19px 0 0 0;
+    margin-top: 2px;
+    vertical-align: top;
+}
+
+.b_focus1 {
+    margin-top: 8px;
+    height: 22px;
+}
+
+.blue {
+    background-color: #689BFF;
+}
+
+.pink {
+    background-color: #FD9A98;
+}
+
+.yellow {
+    background-color: #FECB00;
+}
+
+.green {
+    background-color: #1FCA21;
+}
+
+.small_digits {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    line-height: 17px;
+}
+
+.ele_style {
+    font-size:18px;
+    color: #1913A2;
+}
+
+#b_spaceLeft {
+    margin-left: 15px;
+}
+
+#b_spaceTop {
+    height: 300px;
+}
+
+.b_cent_spaceTop {
+    height: 200px;
+}
+
+.b_right_spaceTop {
+    height: 300px;
+}
+
+#c_bot_stack {
+    /*background: yellow;*/
+    height: 122px;
+    width: 959px;
+}
+
+#c_top_row {
+    /*background: red;*/
+    width: 906px;
+    height: 53px;
+    margin-left: 40px;
+    margin-top: 19px;
+}
+
+.c_rows, .c_labels {
+    display: inline-block;
+    vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -3px;
+}
+
+.c_rows {
+    text-align: center;
+}
+
+.c_labels {
+    font-size: 12px;
+    font-family: arial;
+    color: #FD1D1A;
+    /*background: orange;*/
+    height: 41px;
+    width: 59px;
+    padding-top: 8px;
+}
+
+#c_adjust_alignment {
+    text-align: right;
+    width: 62px;
+    margin-right: -4px;
+}
+
+.c_bot_row {
+    /*background: red;*/
+    height: 50px;
+    width: 807px;
+    margin-left: 40px;
+    margin-top: -3px;
+}
+
+
+#c_adjust_alignment2 {
+    text-align: right;
+    width: 62px;
+    margin-right: -4px;
+}

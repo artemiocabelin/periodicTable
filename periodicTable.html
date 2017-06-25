@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="periodicTable.css">
+    <title>Periodic Table</title>
+</head>
+<body>
+    <div id="main_wrap">
+        <ul id="a_top_stack">
+                <li class="a_top_num">Group Period</li>
+                <li class="a_top_num a_adjust">1</li>
+                <li class="a_top_num a_adjust">2</li>
+                <li class="a_top_num a_adjust a_focus2" id="a_focus1">3</li>
+                <li class="a_top_num a_adjust a_focus2">4</li>
+                <li class="a_top_num a_adjust a_focus2">5</li>
+                <li class="a_top_num a_adjust a_focus2">6</li>
+                <li class="a_top_num a_adjust a_focus2">7</li>
+                <li class="a_top_num a_adjust a_focus2">8</li>
+                <li class="a_top_num a_adjust a_focus2">9</li>
+                <li class="a_top_num a_adjust a_focus2">10</li>
+                <li class="a_top_num a_adjust a_focus2">11</li>
+                <li class="a_top_num a_adjust a_focus2">12</li>
+                <li class="a_top_num a_adjust a_focus2">13</li>
+                <li class="a_top_num a_adjust a_focus2">14</li>
+                <li class="a_top_num a_adjust a_focus2">15</li>
+                <li class="a_top_num a_adjust a_focus2">16</li>
+                <li class="a_top_num a_adjust a_focus2">17</li>
+                <li class="a_top_num a_adjust a_focus2">18</li>
+        </ul>
+        <div id="b_mid_stack">
+            <ul class="b_mid_group" id="b_mid_one">
+                    <li class="b_mid_num">1</li>
+                    <li class="b_mid_num">2</li>
+                    <li class="b_mid_num">3</li>
+                    <li class="b_mid_num b_focus1">4</li>
+                    <li class="b_mid_num b_focus1">5</li>
+                    <li class="b_mid_num b_focus1">6</li>
+                    <li class="b_mid_num b_focus1">7</li>
+            </ul>
+            <div class="b_mid_group">
+                <ul class="b_column blue">
+                    <li class="small_digits">1</li>
+                    <li class="small_digits ele_style">H</li>
+                    <li class="small_digits">1.008</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">3</li>
+                    <li class="small_digits ele_style">Li</li>
+                    <li class="small_digits">6.94</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">11</li>
+                    <li class="small_digits ele_style">Na</li>
+                    <li class="small_digits">22.990</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">19</li>
+                    <li class="small_digits ele_style">K</li>
+                    <li class="small_digits">39.098</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">37</li>
+                    <li class="small_digits ele_style">Rb</li>
+                    <li class="small_digits">85.468</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">55</li>
+                    <li class="small_digits ele_style">Cs</li>
+                    <li class="small_digits">132.91</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">87</li>
+                    <li class="small_digits ele_style">Fr</li>
+                    <li class="small_digits">[223.02]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group" id="b_spaceTop">
+                <ul class="b_column blue">
+                    <li class="small_digits">4</li>
+                    <li class="small_digits ele_style">Be</li>
+                    <li class="small_digits">9.0122</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">12</li>
+                    <li class="small_digits ele_style">Mg</li>
+                    <li class="small_digits">24.305</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">20</li>
+                    <li class="small_digits ele_style">Ca</li>
+                    <li class="small_digits">40.078</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">38</li>
+                    <li class="small_digits ele_style">Sr</li>
+                    <li class="small_digits">87.62</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">56</li>
+                    <li class="small_digits ele_style">Ba</li>
+                    <li class="small_digits">137.33</li>
+                </ul>
+                <ul class="b_column blue">
+                    <li class="small_digits">88</li>
+                    <li class="small_digits ele_style">Ra</li>
+                    <li class="small_digits">[226.03]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop" id="b_spaceLeft">
+                <ul class="b_column pink">
+                    <li class="small_digits">21</li>
+                    <li class="small_digits ele_style">Sc</li>
+                    <li class="small_digits">44.956</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">39</li>
+                    <li class="small_digits ele_style">Y</li>
+                    <li class="small_digits">88.906</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">71</li>
+                    <li class="small_digits ele_style">Lu</li>
+                    <li class="small_digits">174.97</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">103</li>
+                    <li class="small_digits ele_style">Lr</li>
+                    <li class="small_digits">[262.11]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop">
+                <ul class="b_column pink">
+                    <li class="small_digits">22</li>
+                    <li class="small_digits ele_style">Ti</li>
+                    <li class="small_digits">47.857</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">40</li>
+                    <li class="small_digits ele_style">Zr</li>
+                    <li class="small_digits">91.224</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">72</li>
+                    <li class="small_digits ele_style">Hf</li>
+                    <li class="small_digits">178.49</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">104</li>
+                    <li class="small_digits ele_style">Rf</li>
+                    <li class="small_digits">[265.12]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop">
+                <ul class="b_column pink">
+                    <li class="small_digits">23</li>
+                    <li class="small_digits ele_style">V</li>
+                    <li class="small_digits">50.942</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">41</li>
+                    <li class="small_digits ele_style">Nb</li>
+                    <li class="small_digits">92.906</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">73</li>
+                    <li class="small_digits ele_style">Ta</li>
+                    <li class="small_digits">180.95</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">105</li>
+                    <li class="small_digits ele_style">Db</li>
+                    <li class="small_digits">[268.13]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop">
+                <ul class="b_column pink">
+                    <li class="small_digits">24</li>
+                    <li class="small_digits ele_style">Cr</li>
+                    <li class="small_digits">51.996</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">42</li>
+                    <li class="small_digits ele_style">Mo</li>
+                    <li class="small_digits">95.96</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">74</li>
+                    <li class="small_digits ele_style">W</li>
+                    <li class="small_digits">183.84</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">106</li>
+                    <li class="small_digits ele_style">Sg</li>
+                    <li class="small_digits">[271.13]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop">
+                <ul class="b_column pink">
+                    <li class="small_digits">25</li>
+                    <li class="small_digits ele_style">Mn</li>
+                    <li class="small_digits">54.938</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">43</li>
+                    <li class="small_digits ele_style">Tc</li>
+                    <li class="small_digits">[97.91]</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">75</li>
+                    <li class="small_digits ele_style">Re</li>
+                    <li class="small_digits">186.21</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">107</li>
+                    <li class="small_digits ele_style">Bh</li>
+                    <li class="small_digits">[270]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop">
+                <ul class="b_column pink">
+                    <li class="small_digits">26</li>
+                    <li class="small_digits ele_style">Fe</li>
+                    <li class="small_digits">55.845</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">44</li>
+                    <li class="small_digits ele_style">Ru</li>
+                    <li class="small_digits">101.07</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">76</li>
+                    <li class="small_digits ele_style">Os</li>
+                    <li class="small_digits">190.23</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">108</li>
+                    <li class="small_digits ele_style">Hs</li>
+                    <li class="small_digits">[277.15]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop">
+                <ul class="b_column pink">
+                    <li class="small_digits">27</li>
+                    <li class="small_digits ele_style">Co</li>
+                    <li class="small_digits">58.693</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">45</li>
+                    <li class="small_digits ele_style">Rh</li>
+                    <li class="small_digits">102.91</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">77</li>
+                    <li class="small_digits ele_style">Ir</li>
+                    <li class="small_digits">192.22</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">109</li>
+                    <li class="small_digits ele_style">Mt</li>
+                    <li class="small_digits">[276.15]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop">
+                <ul class="b_column pink">
+                    <li class="small_digits">28</li>
+                    <li class="small_digits ele_style">Ni</li>
+                    <li class="small_digits">58.693</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">46</li>
+                    <li class="small_digits ele_style">Pd</li>
+                    <li class="small_digits">106.42</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">78</li>
+                    <li class="small_digits ele_style">Pt</li>
+                    <li class="small_digits">195.08</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">110</li>
+                    <li class="small_digits ele_style">Ds</li>
+                    <li class="small_digits">[281.16]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop">
+                <ul class="b_column pink">
+                    <li class="small_digits">29</li>
+                    <li class="small_digits ele_style">Cu</li>
+                    <li class="small_digits">63.546</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">47</li>
+                    <li class="small_digits ele_style">Ag</li>
+                    <li class="small_digits">107.87</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">79</li>
+                    <li class="small_digits ele_style">Au</li>
+                    <li class="small_digits">196.97</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">111</li>
+                    <li class="small_digits ele_style">Rg</li>
+                    <li class="small_digits">[280.16]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_cent_spaceTop">
+                <ul class="b_column pink">
+                    <li class="small_digits">30</li>
+                    <li class="small_digits ele_style">Zn</li>
+                    <li class="small_digits">65.38</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">48</li>
+                    <li class="small_digits ele_style">Cd</li>
+                    <li class="small_digits">112.41</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">80</li>
+                    <li class="small_digits ele_style">Hg</li>
+                    <li class="small_digits">200.59</li>
+                </ul>
+                <ul class="b_column pink">
+                    <li class="small_digits">112</li>
+                    <li class="small_digits ele_style">Cn</li>
+                    <li class="small_digits">[285.17]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_right_spaceTop">
+                <ul class="b_column yellow">
+                    <li class="small_digits">5</li>
+                    <li class="small_digits ele_style">B</li>
+                    <li class="small_digits">10.81</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">13</li>
+                    <li class="small_digits ele_style">Al</li>
+                    <li class="small_digits">26.982</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">31</li>
+                    <li class="small_digits ele_style">Ga</li>
+                    <li class="small_digits">69.723</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">49</li>
+                    <li class="small_digits ele_style">In</li>
+                    <li class="small_digits">114.82</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">81</li>
+                    <li class="small_digits ele_style">Tl</li>
+                    <li class="small_digits">204.38</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">113</li>
+                    <li class="small_digits ele_style">Uut</li>
+                    <li class="small_digits">[284.18]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_right_spaceTop">
+                <ul class="b_column yellow">
+                    <li class="small_digits">6</li>
+                    <li class="small_digits ele_style">C</li>
+                    <li class="small_digits">12.011</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">14</li>
+                    <li class="small_digits ele_style">Si</li>
+                    <li class="small_digits">28.085</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">32</li>
+                    <li class="small_digits ele_style">Ge</li>
+                    <li class="small_digits">72.63</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">50</li>
+                    <li class="small_digits ele_style">Sn</li>
+                    <li class="small_digits">118.71</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">82</li>
+                    <li class="small_digits ele_style">Pb</li>
+                    <li class="small_digits">207.2</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">114</li>
+                    <li class="small_digits ele_style">Fl</li>
+                    <li class="small_digits">[289.19]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_right_spaceTop">
+                <ul class="b_column yellow">
+                    <li class="small_digits">7</li>
+                    <li class="small_digits ele_style">N</li>
+                    <li class="small_digits">14.007</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">15</li>
+                    <li class="small_digits ele_style">P</li>
+                    <li class="small_digits">30.974</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">33</li>
+                    <li class="small_digits ele_style">As</li>
+                    <li class="small_digits">74.922</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">51</li>
+                    <li class="small_digits ele_style">Sb</li>
+                    <li class="small_digits">121.76</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">83</li>
+                    <li class="small_digits ele_style">Bi</li>
+                    <li class="small_digits">208.98</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">115</li>
+                    <li class="small_digits ele_style">Uup</li>
+                    <li class="small_digits">[288.19]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_right_spaceTop">
+                <ul class="b_column yellow">
+                    <li class="small_digits">8</li>
+                    <li class="small_digits ele_style">O</li>
+                    <li class="small_digits">15.999</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">16</li>
+                    <li class="small_digits ele_style">S</li>
+                    <li class="small_digits">32.06</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">34</li>
+                    <li class="small_digits ele_style">Se</li>
+                    <li class="small_digits">78.96</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">52</li>
+                    <li class="small_digits ele_style">Te</li>
+                    <li class="small_digits">127.60</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">84</li>
+                    <li class="small_digits ele_style">Po</li>
+                    <li class="small_digits">[208.98]</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">116</li>
+                    <li class="small_digits ele_style">Lv</li>
+                    <li class="small_digits">[293]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group b_right_spaceTop">
+                <ul class="b_column yellow">
+                    <li class="small_digits">9</li>
+                    <li class="small_digits ele_style">F</li>
+                    <li class="small_digits">18.998</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">17</li>
+                    <li class="small_digits ele_style">Cl</li>
+                    <li class="small_digits">35.45</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">35</li>
+                    <li class="small_digits ele_style">Br</li>
+                    <li class="small_digits">79.904</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">53</li>
+                    <li class="small_digits ele_style">I</li>
+                    <li class="small_digits">126.90</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">85</li>
+                    <li class="small_digits ele_style">At</li>
+                    <li class="small_digits">[209.99]</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">117</li>
+                    <li class="small_digits ele_style">Uus</li>
+                    <li class="small_digits">[294]</li>
+                </ul>
+            </div>
+            <div class="b_mid_group">
+                <ul class="b_column yellow">
+                    <li class="small_digits">2</li>
+                    <li class="small_digits ele_style">He</li>
+                    <li class="small_digits">4.0026</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">10</li>
+                    <li class="small_digits ele_style">Ne</li>
+                    <li class="small_digits">20.180</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">18</li>
+                    <li class="small_digits ele_style">Ar</li>
+                    <li class="small_digits">39.948</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">36</li>
+                    <li class="small_digits ele_style">Kr</li>
+                    <li class="small_digits">83.798</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">54</li>
+                    <li class="small_digits ele_style">Xe</li>
+                    <li class="small_digits">131.29</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">86</li>
+                    <li class="small_digits ele_style">Rn</li>
+                    <li class="small_digits">[222.02]</li>
+                </ul>
+                <ul class="b_column yellow">
+                    <li class="small_digits">118</li>
+                    <li class="small_digits ele_style">Uuo</li>
+                    <li class="small_digits">[294]</li>
+                </ul>
+            </div>
+        </div>
+        <div id="c_bot_stack">
+            <ul id="c_top_row">
+                <li class="c_labels">
+                    *Lanthanoids
+                </li>
+                <li class="c_labels" id="c_adjust_alignment">
+                    *
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">57</li>
+                        <li class="small_digits ele_style">La</li>
+                        <li class="small_digits">138.91</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">58</li>
+                        <li class="small_digits ele_style">Ce</li>
+                        <li class="small_digits">140.12</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">59</li>
+                        <li class="small_digits ele_style">Pr</li>
+                        <li class="small_digits">140.91</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">60</li>
+                        <li class="small_digits ele_style">Nd</li>
+                        <li class="small_digits">144.24</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">61</li>
+                        <li class="small_digits ele_style">Pm</li>
+                        <li class="small_digits">[144.91]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">62</li>
+                        <li class="small_digits ele_style">Sm</li>
+                        <li class="small_digits">150.36</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">63</li>
+                        <li class="small_digits ele_style">Eu</li>
+                        <li class="small_digits">151.96</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">64</li>
+                        <li class="small_digits ele_style">Gd</li>
+                        <li class="small_digits">157.25</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">65</li>
+                        <li class="small_digits ele_style">Tb</li>
+                        <li class="small_digits">158.93</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">66</li>
+                        <li class="small_digits ele_style">Dy</li>
+                        <li class="small_digits">162.50</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">67</li>
+                        <li class="small_digits ele_style">Ho</li>
+                        <li class="small_digits">164.93</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">68</li>
+                        <li class="small_digits ele_style">Er</li>
+                        <li class="small_digits">167.26</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">69</li>
+                        <li class="small_digits ele_style">Tm</li>
+                        <li class="small_digits">168.93</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">70</li>
+                        <li class="small_digits ele_style">Yb</li>
+                        <li class="small_digits">173.05</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="c_bot_row">
+                <li class="c_labels">
+                    **Actinoids
+                </li>
+                <li class="c_labels" id="c_adjust_alignment2">
+                    **
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">89</li>
+                        <li class="small_digits ele_style">Ac</li>
+                        <li class="small_digits">[227.03]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">90</li>
+                        <li class="small_digits ele_style">Th</li>
+                        <li class="small_digits">234.04</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">91</li>
+                        <li class="small_digits ele_style">Pa</li>
+                        <li class="small_digits">231.04</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">92</li>
+                        <li class="small_digits ele_style">U</li>
+                        <li class="small_digits">238.03</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">93</li>
+                        <li class="small_digits ele_style">Np</li>
+                        <li class="small_digits">[237.05]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">94</li>
+                        <li class="small_digits ele_style">Pu</li>
+                        <li class="small_digits">[244.06]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">95</li>
+                        <li class="small_digits ele_style">Am</li>
+                        <li class="small_digits">[243.06]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">96</li>
+                        <li class="small_digits ele_style">Cm</li>
+                        <li class="small_digits">[247.07]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">97</li>
+                        <li class="small_digits ele_style">Bk</li>
+                        <li class="small_digits">247.07</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">98</li>
+                        <li class="small_digits ele_style">Cf</li>
+                        <li class="small_digits">[251.08]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">99</li>
+                        <li class="small_digits ele_style">Es</li>
+                        <li class="small_digits">[252.08]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">100</li>
+                        <li class="small_digits ele_style">Fm</li>
+                        <li class="small_digits">[257.10]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">101</li>
+                        <li class="small_digits ele_style">Md</li>
+                        <li class="small_digits">[258.10]</li>
+                    </ul>
+                </li>
+                <li class="c_rows green">
+                    <ul>
+                        <li class="small_digits">102</li>
+                        <li class="small_digits ele_style">No</li>
+                        <li class="small_digits">[259.10]</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div> 
+</body>
+</html>
